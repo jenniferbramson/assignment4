@@ -52,7 +52,7 @@ function showMatches(i, input_data) {
         if (lc_data.startsWith(input_data)) {
           // Display by adding an li of class accordian to results
           $('#results').show();
-          $('#results').append('<li class="accordian">' + lc_data + '<li>');
+          $('#results').append('<li class="accordian">' + lc_data + '</li>');
         }
       }
     }
